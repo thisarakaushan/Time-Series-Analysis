@@ -19,3 +19,11 @@ Time series analysis is used for non-stationary data—things that are constantl
 2. [EDA of Microsoft Share Price](./notebooks/EDA%20of%20Time%20Series_Microsoft.ipynb)
 
     - Using [Microsoft Share Price](https://www.google.com/search?q=microsoft+share+price&sxsrf=AB5stBjHXaWCTfDv5sikjr1xKtkkLmAfJw%3A1689232224337&ei=YKOvZIiOFP-SseMP0MKMWA&oq=micro+share+price&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBQgAEIAEMgYIABAHEB4yBggAEAcQHjoLCAAQigUQsQMQkQI6CwgAEIAEELEDEIMBSgQIQRgAUABYowdgvxNoAHABeACAAbUBiAGqBpIBAzAuNZgBAKABAcABAQ&sclient=gws-wiz-serp)
+  
+3. [Airline Passengers Prediction](./notebooks/Airline%20Passenger%20Prediction_ARIMA.ipynb) / [dataset](./datasets/airline_passengers.csv)
+
+   * Using ARIMA and SARIMAX Models
+          * ARIMA and SARIMA are great tools for time series analysis. They require data in a ‘long’ format. 
+          * By this I mean a collection (preferably a pandas data-frame) of data points where each data point is associated with a time (in pandas this would be a series                with different times forming the index). 
+                   - ARIMA stands for auto regressive integrated moving average. 
+                   - SARIMAX is similar and stands for seasonal auto regressive integrated moving average with exogenous factors.
